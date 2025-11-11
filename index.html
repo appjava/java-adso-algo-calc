@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Calculadora de áreas, perímetros y volúmenes - PWA educativa" />
+  <title>JAVA ADSO Algo Calc | Áreas y Volúmenes</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="manifest" href="manifest.json" />
+  <meta name="theme-color" content="#4CAF50" />
+  <link rel="icon" href="/icon/favicon.ico">
+</head>
+<body>
+  <header>
+    <h1>Calculadora ADSO</h1>
+    <p>Calcula áreas, perímetros y volúmenes de figuras regulares</p>
+  </header>
+
+  <main>
+    <section id="menu">
+      <button id="btn2d">Figuras Planas (2D)</button>
+      <button id="btn3d">Sólidos (3D)</button>
+    </section>
+
+    <section id="form-section" style="display: none;">
+      <h2 id="form-title">Selecciona una figura</h2>
+      <select id="shape-select">
+      </select>
+      <div id="inputs"></div>
+      <button id="btn-calcular">Calcular</button>
+      <div id="result"></div>
+    </section>
+
+    <button id="btn-volver" style="display: none;">← Volver al menú</button>
+  </main>
+
+  <footer>
+    <p>Desarrollado como evidencia GA2-240201528-AA4 | ADSO 3336158 | JAVA 2025</p>
+    <img src="/icon/web-app-manifest-192x192.png"/>
+</footer>
+
+  <script src="app.js"></script>
+</body>
+</html>
