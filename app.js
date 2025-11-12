@@ -55,7 +55,7 @@ const shapes2D = {
     resultDiv.style.display = 'none';
   
     const shapes = mode === '2d' ? shapes2D : shapes3D;
-    formTitle.textContent = mode === '2d' ? 'Figuras Planas (2D)' : 'Sólidos (3D)';
+    formTitle.textContent = mode === '2d' ? 'Figuras Planas (2D)' : 'Sólidos Regulares (3D)';
   
     // Llenar select
     shapeSelect.innerHTML = '';
