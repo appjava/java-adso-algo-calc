@@ -1,19 +1,19 @@
 {
-    "name": "JaimeValencia_ADSO_3336158 | Algoritmo Áreas y Volúmenes | 2025",
-    "short_name": "JAVAGeomCalc",
+    "name": "ADSO_GEOCAL | Algoritmo Áreas y Volúmenes | JAVA 2025",
+    "short_name": "java-adso-algo-calc",
     "description": "Calculadora geometría para figuras 2D y 3D.",
-    "start_url": "",
+    "start_url": "https://appjava.github.io/java-adso-algo-calc/",
     "display": "standalone",
     "background_color": "#ffffff",
     "theme_color": "#4CAF50",
     "icons": [
       {
-        "src": "icon/icon-192.png",
+        "src": "icon/web-app-manifest-192x192.png",
         "sizes": "192x192",
         "type": "image/png"
       },
       {
-        "src": "icon/icon-512.png",
+        "src": "icon/web-app-manifest-512x512.png",
         "sizes": "512x512",
         "type": "image/png"
       }
