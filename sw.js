@@ -1,10 +1,10 @@
 // sw.js
-const CACHE_NAME = 'javageomcalc-v1';
+const CACHE_NAME = 'java-adso-algo-calc-v1';
 const urlsToCache = [
-  '/',
-  '/index.html',
-  '/style.css',
-  '/app.js'
+  '',
+  'index.html',
+  'style.css',
+  'app.js'
 ];
 
 self.addEventListener('install', (event) => {
