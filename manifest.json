@@ -1,6 +1,6 @@
 {
     "name": "ADSO_GEOCAL | Algoritmo Áreas y Volúmenes | JAVA 2025",
-    "short_name": "java-adso-algo-calc",
+    "short_name": "ADSO_GEOCAL by JAVA",
     "description": "Calculadora geometría para figuras 2D y 3D.",
     "start_url": "https://appjava.github.io/java-adso-algo-calc/",
     "display": "standalone",
